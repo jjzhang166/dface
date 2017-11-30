@@ -24,8 +24,7 @@ DFace可以利用CUDA来支持GPU加速模式。我们建议尝试linux GPU这�
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/mtcnn_st.png)
 
 
-**如果你对DFace感兴趣并且想参与到这个项目中, 请查看目录下的　CONTRIBUTING.md　文档，它会实时展示一些需要＠ＴＯＤＯ的清单。我会用 [issues](https://github.com/DFace/DFace/issues)
-来跟踪和反馈所有的问题.**
+**如果你对DFace感兴趣并且想参与到这个项目中, 请查看目录下的　CONTRIBUTING.md　文档，它会实时展示一些需要＠ＴＯＤＯ的清单。我会用issues来跟踪和反馈所有的问题.**
 
 
 ## 安装
@@ -119,10 +118,9 @@ python test_image.py
 ```    
 
 ### 人脸识别
+@TODO 根据center loss实现人脸识别
 
-TODO  
-
-##　测试效果
+##　测试效果  
 
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dface_demo.png)  
 
@@ -132,6 +130,4 @@ TODO
 [Apache License 2.0](LICENSE)
 
 
-## Reference
 
-* [Seanlinx/mtcnn](https://github.com/Seanlinx/mtcnn)
