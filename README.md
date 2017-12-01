@@ -124,6 +124,11 @@ python test_image.py
 
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dface_demo.png)  
 
+### QQ交流群  
+
+#### 681403076  
+
+![](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dfaceqqsm.png)
 
 ## License
 
