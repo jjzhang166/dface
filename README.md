@@ -117,11 +117,11 @@ python src/train_net/train_o_net.py
 python test_image.py
 ```    
 
-### 人脸识别
+### 人脸识别  
+
 @TODO 根据center loss实现人脸识别
 
 ##　测试效果  
-
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dface_demo.png)  
 
 ### QQ交流群  
