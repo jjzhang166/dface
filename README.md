@@ -122,7 +122,7 @@ python test_image.py
 @TODO 根据center loss实现人脸识别
 
 ##　测试效果  
-![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dface_demo.png)  
+![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dface_demoall.PNG)  
 
 ### QQ交流群  
 
