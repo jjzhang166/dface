@@ -14,6 +14,9 @@
 **基于多任务卷积网络(MTCNN)和Center-Loss的多人实时人脸检测和人脸识别系统。**
 
 
+[Github项目地址](https://github.com/kuaikuaikim/DFace)  
+
+
 **DFace** 是个开源的深度学习人脸检测和人脸识别系统。所有功能都采用　**[pytorch](https://github.com/pytorch/pytorch)**　框架开发。pytorch是一个由facebook开发的深度学习框架，它包含了一些比较有趣的高级特性，例如自动求导，动态构图等。DFace天然的继承了这些优点，使得它的训练过程可以更加简单方便，并且实现的代码可以更加清晰易懂。
 DFace可以利用CUDA来支持GPU加速模式。我们建议尝试linux GPU这种模式，它几乎可以实现实时的效果。
 所有的灵感都来源于学术界最近的一些研究成果，例如　[Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks](https://arxiv.org/abs/1604.02878) 和 [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/abs/1503.03832)
