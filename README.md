@@ -16,6 +16,9 @@
 
 [Github项目地址](https://github.com/kuaikuaikim/DFace)  
 
+[Slack 聊天组](https://dfaceio.slack.com/)  
+
+
 
 **DFace** 是个开源的深度学习人脸检测和人脸识别系统。所有功能都采用　**[pytorch](https://github.com/pytorch/pytorch)**　框架开发。pytorch是一个由facebook开发的深度学习框架，它包含了一些比较有趣的高级特性，例如自动求导，动态构图等。DFace天然的继承了这些优点，使得它的训练过程可以更加简单方便，并且实现的代码可以更加清晰易懂。
 DFace可以利用CUDA来支持GPU加速模式。我们建议尝试linux GPU这种模式，它几乎可以实现实时的效果。
