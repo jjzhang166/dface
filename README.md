@@ -130,7 +130,7 @@ python test_image.py
 ##　测试效果  
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dface_demoall.PNG)  
 
-### QQ交流群  
+### QQ交流群(模型获取请加群)  
 
 #### 681403076  
 
