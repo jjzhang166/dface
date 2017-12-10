@@ -30,7 +30,14 @@ DFace可以利用CUDA来支持GPU加速模式。我们建议尝试linux GPU这�
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/mtcnn_st.png)
 
 
-**如果你对DFace感兴趣并且想参与到这个项目中, 请查看目录下的　CONTRIBUTING.md　文档，它会实时展示一些需要＠ＴＯＤＯ的清单。我会用issues来跟踪和反馈所有的问题.**
+**如果你对DFace感兴趣并且想参与到这个项目中, 以下TODO是一些需要实现的功能，我定期会更新，它会实时展示一些需要开发的清单。提交你的fork request,我会用issues来跟踪和反馈所有的问题。也可以加DFace的官方Q群 681403076 **
+
+###  TODO(需要开发的功能)
+- 基于center loss 或者triplet loss原理开发人脸对比功能，模型采用ResNet inception v2. 该功能能够比较两张人脸图片的相似性。具体可以参考 [Paper](https://arxiv.org/abs/1503.03832)和[FaceNet](https://github.com/davidsandberg/facenet)
+- 反欺诈功能，根据光线，质地等人脸特性来防止照片攻击，视频攻击，回放攻击等。具体可参考LBP算法和SVM训练模型。
+- 3D人脸反欺诈。
+- mobile移植，基于C++嵌入caffe2实现。
+- Tensor RT移植，高并发。
 
 
 ## 安装
@@ -130,6 +137,7 @@ python test_image.py
 ##　测试效果  
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dface_demoall.PNG)  
 
+
 ### QQ交流群(模型获取请加群)  
 
 #### 681403076  
@@ -139,6 +147,4 @@ python test_image.py
 ## License
 
 [Apache License 2.0](LICENSE)
-
-
 
