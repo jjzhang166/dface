@@ -38,7 +38,7 @@ DFace可以利用CUDA来支持GPU加速模式。我们建议尝试linux GPU这�
 - 3D人脸反欺诈。
 - mobile移植，基于C++嵌入caffe2实现。
 - Tensor RT移植，高并发。
-
+- Docker支持，gpu版
 
 ## 安装
 DFace主要有两大模块，人脸检测和人脸识别。我会提供所有模型训练和运行的详细步骤。你首先需要构建一个pytorch和cv2的python环境，我推荐使用Anaconda来设置一个独立的虚拟环境。
