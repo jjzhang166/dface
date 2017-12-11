@@ -58,7 +58,7 @@ DFace主要有两大模块，人脸检测和人脸识别。我会提供所有模
 conda env create -f path/to/environment.yml
 ```
 
-### 人脸检测
+### 人脸识别和检测
 
 如果你对mtcnn模型感兴趣，以下过程可能会帮助到你。
 
@@ -130,7 +130,7 @@ python src/train_net/train_o_net.py
 python test_image.py
 ```    
 
-### 人脸识别  
+### 人脸对比  
 
 @TODO 根据center loss实现人脸识别
 
