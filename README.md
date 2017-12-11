@@ -36,7 +36,7 @@ DFace可以利用CUDA来支持GPU加速模式。我们建议尝试linux GPU这�
 - 基于center loss 或者triplet loss原理开发人脸对比功能，模型采用ResNet inception v2. 该功能能够比较两张人脸图片的相似性。具体可以参考 [Paper](https://arxiv.org/abs/1503.03832)和[FaceNet](https://github.com/davidsandberg/facenet)
 - 反欺诈功能，根据光线，质地等人脸特性来防止照片攻击，视频攻击，回放攻击等。具体可参考LBP算法和SVM训练模型。
 - 3D人脸反欺诈。
-- mobile移植，基于C++嵌入caffe2实现。
+- mobile移植，根据ONNX标准把pytorch训练好的模型迁移到caffe2,一些numpy算法改用c++实现。
 - Tensor RT移植，高并发。
 - Docker支持，gpu版
 
