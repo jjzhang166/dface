@@ -7,7 +7,12 @@ import core.vision as vision
 
 if __name__ == '__main__':
 
-    pnet, rnet, onet = create_mtcnn_net(p_model_path="./model_store/pnet_epoch_5best.pt", r_model_path="./model_store/rnet_epoch_1.pt", o_model_path="./model_store/onet_epoch_7bbest.pt", use_cuda=True)
+    # refer to your local model path 
+    p_model = "./model_store/pnet_epoch.pt"
+    r_model = "./model_store/rnet_epoch.pt"
+    o_model = "./model_store/onet_epoch.pt"
+
+    pnet, rnet, onet = create_mtcnn_net(p_model_path=p_model, r_model_path=r_model, o_model_path=o_model, use_cuda=True)
     mtcnn_detector = MtcnnDetector(pnet=pnet, rnet=rnet, onet=onet, min_face_size=24)
 
     img = cv2.imread("./test.jpg")
