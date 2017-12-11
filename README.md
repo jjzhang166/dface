@@ -30,7 +30,7 @@ DFace可以利用CUDA来支持GPU加速模式。我们建议尝试linux GPU这�
 ![mtcnn](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/mtcnn_st.png)
 
 
-** 如果你对DFace感兴趣并且想参与到这个项目中, 以下TODO是一些需要实现的功能，我定期会更新，它会实时展示一些需要开发的清单。提交你的fork request,我会用issues来跟踪和反馈所有的问题。也可以加DFace的官方Q群 681403076 **
+** 如果你对DFace感兴趣并且想参与到这个项目中, 以下TODO是一些需要实现的功能，我定期会更新，它会实时展示一些需要开发的清单。提交你的fork request,我会用issues来跟踪和反馈所有的问题。也可以加DFace的官方Q群 681403076 也可以加本人微信 jinkuaikuai005 **
 
 ###  TODO(需要开发的功能)
 - 基于center loss 或者triplet loss原理开发人脸对比功能，模型采用ResNet inception v2. 该功能能够比较两张人脸图片的相似性。具体可以参考 [Paper](https://arxiv.org/abs/1503.03832)和[FaceNet](https://github.com/davidsandberg/facenet)
@@ -140,9 +140,17 @@ python test_image.py
 
 ### QQ交流群(模型获取请加群)  
 
-#### 681403076  
-
+#### 681403076 
+ 
 ![](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/dfaceqqsm.png)
+
+#### 本人微信  
+
+##### jinkuaikuai005  
+
+![](http://affluent.oss-cn-hangzhou.aliyuncs.com/html/images/perqr.jpg)  
+
+
 
 ## License
 
